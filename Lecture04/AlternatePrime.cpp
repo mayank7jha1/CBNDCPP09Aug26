@@ -10,6 +10,9 @@ int main() {
 
   int c = 2;
 
+  // This will tell me how many prime numbers we have found till now.
+  int count = 0;
+
   while (c <= n) {
 
     int p = 2;
@@ -26,7 +29,15 @@ int main() {
     }
 
     if (flag == 0) {
-      cout << c << " ";
+      // This c is a prime number:
+      count++;
+
+      // Check if this count is odd or not?
+      if ((count % 2) == 1) {
+        // Then print the current prime number.
+        cout << c << " ";
+      }
+      
     }
 
     c++;
