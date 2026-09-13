@@ -65,9 +65,9 @@ int32_t main() {
       }
     }
 
-    // What is the size of b array: It is k ;
+    // What is the size of b array: k
 
-    // Step04: Apply the triplet ka logic:
+    // Step05: Apply the triplet ka logic:
     int flag = 0;
 
     for (int i = 0; i < (k - 2); i++) {
