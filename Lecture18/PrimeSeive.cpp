@@ -32,7 +32,7 @@ void PrimeSeive(int n) {
 void Print_Prime(int n, int m) {
 
   if (n <= 2 and m >= 2) {
-    cout << 2 << " ";
+    cout << 2 << endl;
   }
 
   if (n < 3) {
@@ -45,11 +45,11 @@ void Print_Prime(int n, int m) {
 
   for (int i = n; i <= m and i < N; i += 2) {
     if (Prime[i] == 1) {
-      cout << i << " ";
+      cout << i << endl;
     }
   }
 
-  cout << endl << endl;
+  cout << endl;
 }
 
 int32_t main() {
